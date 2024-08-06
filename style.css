@@ -1,26 +1,24 @@
 /* style.css */
-
 /*CSS Reset*/
 * {
     margin: 0px;
     padding: 0px;
 }
-
 /*Header Styling*/
-#top {
+#top 
+{
     color: rgb(245, 10, 10);
     text-align: center;
     font-size: 46px;
     font-family: 'Ubuntu Mono', monospace;
 }
-
-#top1 {
+#top1
+{
     text-align: center;
     color: black;
     font-size: 21px;
     font-family: 'Ubuntu Mono', monospace;
 }
-
 /* Navigation bar styling*/
 /*Navbar image styling*/
 #navbar img {
@@ -43,13 +41,11 @@
     border: 2px solid black;
     border-radius: 15px;
 }
-
 /*Navbar content functionality*/
 #navcontent {
     display: flex;
     justify-content: center;
 }
-
 /*Navbar content styling*/
 ul li {
     list-style: none;
@@ -110,18 +106,20 @@ ul li a:hover {
     margin-top: 15px;
     border: 3px solid white;
     border-radius: 15px;
-    background-color: yellow;
+    background-color: rgb(255, 60, 0);
     font-size: 20px;
     font-weight: bold;
     font-family: 'Ubuntu Mono', monospace;
 }
 
-.btn:hover {
+.btn:hover 
+{
     cursor: pointer;
     background-color: red;
 }
 
-#container3 {
+#container3 
+{
     display: flex;
     justify-content: space-evenly;
 }
@@ -326,25 +324,71 @@ footer {
         height: 44vh
     }
 }
-#menuItems {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-#menuItems h2 {
+header {
     text-align: center;
-    font-family: 'Ubuntu Mono', monospace;
+    margin: 20px 0;
 }
 
-#menuItems ul {
-    list-style-type: none;
-    padding: 0;
+/* Menu options container */
+#menuOptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
 }
 
-#menuItems li {
-    padding: 5px 0;
-    font-family: 'Ubuntu Mono', monospace;
+/* Menu item styling */
+.menu-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item h2 {
+    margin: 10px 0;
+}
+
+.menu-item p {
+    padding: 0 10px 10px;
+}
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Prices list container */
+#priceList {
+    background: url("https://i.pinimg.com/236x/a1/3a/d6/a13ad68cf38c60c2a0dbc00e6337f009.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Price item styling */
+.price-item {
+    border: 1px solid #f6f3f3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(231, 236, 230, 0.1);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.price-item h2 {
+    margin: 10px 0;
+}
+
+.price-item p {
+    font-size: 1.5rem;
+    color: #e7d9d9;
 }
