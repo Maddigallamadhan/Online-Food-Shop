@@ -366,6 +366,7 @@ header {
 
 /* Prices list container */
 #priceList {
+   /* background: url("https://i.pinimg.com/236x/a1/3a/d6/a13ad68cf38c60c2a0dbc00e6337f009.jpg") no-repeat center center/cover;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -374,20 +375,23 @@ header {
 
 /* Price item styling */
 .price-item {
-    border: 1px solid #f6f3f3;
+    border: 1px solid #141313;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(231, 236, 230, 0.1);
+    box-shadow: 0 4px 8px rgba(44, 43, 40, 0.1);
     margin: 10px;
     padding: 10px;
     text-align: center;
+    color: #141111;
     width: 200px;
 }
 
 .price-item h2 {
     margin: 10px 0;
 }
-
+.price-item h1 {
+    color: rgb(1, 4, 8);
+}
 .price-item p {
     font-size: 1.5rem;
-    color: #e7d9d9;
+    color: #0f0e0e;
 }
